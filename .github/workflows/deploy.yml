@@ -1,0 +1,18 @@
+name: Deploy Shadowrocket Config
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Deploy Configuration
+        run: |
+          echo "Deployment logic here"
+          # 您可以在此处添加将配置文件部署到服务器或其他操作的命令
