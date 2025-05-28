@@ -14,5 +14,7 @@ jobs:
 
       - name: Deploy Configuration
         run: |
-          echo "Deployment logic here"
+          echo "
+https://raw.githubusercontent.com/EnjoyGoGoal/shadowrocket/main/config/default.conf
+"
           # 您可以在此处添加将配置文件部署到服务器或其他操作的命令
